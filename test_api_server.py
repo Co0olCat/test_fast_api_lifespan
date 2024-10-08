@@ -2,6 +2,7 @@ import pytest
 from fastapi.testclient import TestClient
 from api_server import app
 
+
 @pytest.fixture(name="client")
 def client_fixture():
     # Does not work with lifespan
